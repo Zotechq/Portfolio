@@ -13,14 +13,41 @@ body {
 
       
     top: 0;
-    left: 10px;
+    left:500px;
     right: 10px;
     
   }
 
   
 
- 
+  .home-link {
+    text-decoration: none;
+  }
+  
+  .home-link i {
+    font-size: 1.5em;
+    margin-right: 5px;
+  }
+
+  .icon {
+    position: fixed;
+    left: 10px;
+    top: 30px;
+    transform: translateY(-50%);
+    z-index: 9999;
+  }
+
+  .icon a {
+    display: block;
+    
+    /* color: #fff; */
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
 
   .name {
     margin: 0 ;
@@ -90,6 +117,8 @@ body {
 
     
   }
+
+  
 
   .navbar ul {
     list-style: none;
